@@ -1,1 +1,10 @@
 /* we'll add some basic style here */
+h1 {
+  font-family: sans-serif;
+  color: green;
+}
+
+main {
+  font-family: monospace;
+  font-size: 1em;
+}
