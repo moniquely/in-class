@@ -1,7 +1,7 @@
 const fs = require('fs');
 const cheerio = require('cheerio') //for html testing
-
 //include custom matchers
+
 const styleMatchers = require('jest-style-matchers');
 expect.extend(styleMatchers);
 
@@ -24,5 +24,5 @@ describe('Source code is valid', () => {
     }
 
     await expect(htmlPath).toHaveNoHtmlLintErrorsAsync(lintOpts);
-  })  
+  })
 });
